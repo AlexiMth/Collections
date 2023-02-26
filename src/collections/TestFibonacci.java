@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TestFibonacci {
 
     @Test
-    public void testFibonacciSequence() {
+    public void testFibonacciSeq() {
         Fibonacci fibonacci = new Fibonacci(8);
         Iterator<Integer> iterator = fibonacci.iterator();
         assertEquals(1, iterator.next());
