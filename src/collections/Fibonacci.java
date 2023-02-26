@@ -12,7 +12,7 @@ public class Fibonacci implements Iterable<Integer> {
 	
 	@Override
 	public Iterator<Integer> iterator(){
-		return new FiboIterateur(borne);
+		return new FiboIterator(borne);
 	}
 	
 	public static void main(String[] args) {

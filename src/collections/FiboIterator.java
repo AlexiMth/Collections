@@ -2,7 +2,7 @@ package collections;
 
 import java.util.Iterator;
 
-public class FiboIterateur implements Iterator<Integer>{
+public class FiboIterator implements Iterator<Integer>{
 
 	/**
 	 * La borne maximale.
@@ -16,7 +16,7 @@ public class FiboIterateur implements Iterator<Integer>{
 	 * Constructeur jusqu'à une borne max.
 	 * @param borne
 	 */
-	public FiboIterateur(int borne) {
+	public FiboIterator(int borne) {
 		this.borne = borne;
 		actuel = 0;
 		suivant = 1;
